@@ -6,8 +6,8 @@ namespace CompanyManager.Logic.DataContext
     internal class CompanyContext : DbContext, IContext
     {
         #region fields
-        private static string DatabaseType = "Sqlite";
-        private static string ConnectionString = "data source=CompanyManager.db";
+        private static string DatabaseType = "";
+        private static string ConnectionString = "";
         #endregion fields
 
         static CompanyContext()
