@@ -6,8 +6,8 @@ namespace CompanyManager.Logic.DataContext
     internal class CompanyContext : DbContext, IContext
     {
         #region fields
-        private static string DatabaseType = "";
-        private static string ConnectionString = "";
+        private static readonly string DatabaseType = "";
+        private static readonly string ConnectionString = "";
         #endregion fields
 
         static CompanyContext()
